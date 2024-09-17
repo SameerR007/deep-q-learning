@@ -27,4 +27,4 @@ The DQN implementation consists of several key components:
 The implementation and understanding of the algorithms are based on the following resources:
 
 - [Deep Q-Learning Algorithm - Hugging Face](https://huggingface.co/learn/deep-rl-course/unit3/deep-q-algorithm)
-- [Deep Q-Learning/Deep Q-Network (DQN) Explained - Johnny Code] (https://www.youtube.com/watch?v=EUrWGTCGzlA)
+- [Deep Q-Learning/Deep Q-Network (DQN) Explained - Johnny Code](https://www.youtube.com/watch?v=EUrWGTCGzlA)
