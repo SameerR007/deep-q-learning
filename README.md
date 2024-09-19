@@ -28,3 +28,9 @@ The implementation and understanding of the algorithms are based on the followin
 
 - [Deep Q-Learning Algorithm - Hugging Face](https://huggingface.co/learn/deep-rl-course/unit3/deep-q-algorithm)
 - [Deep Q-Learning/Deep Q-Network (DQN) Explained - Johnny Code](https://www.youtube.com/watch?v=EUrWGTCGzlA)
+
+## Update
+
+An alternative to value based approaches such as **Q-Learning** and **Deep Q-Learning (DQN)**, is Policy based approach for eg. **Policy Gradient** method, which directly optimizes the policy by learning a probability distribution over actions rather than estimating action values. Unlike DQN’s deterministic approach, Policy Gradient methods use a stochastic policy, sampling actions from a probability distribution, which inherently supports exploration and adapts well to both discrete and continuous action spaces. While DQN relies on experience replay and target networks for stability, Policy Gradient simplifies training by updating the policy based on episode rewards, making it especially effective in environments with stochastic elements or continuous actions. This extension applies Policy Gradient to the `FrozenLake-v1` environment, showcasing an alternative approach to maximize long-term rewards.
+
+For more details, please visit [Policy Gradient Method (Reinforce Algorithm) Repository](https://github.com/SameerR007/pgm-reinforce).
